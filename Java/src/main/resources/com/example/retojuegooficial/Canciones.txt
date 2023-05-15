@@ -1,0 +1,14 @@
+***Estrellita donde estas *****
+naranja - naranja - azul - azul - marron - marron - azul
+amarillo - amarillo - rojo - rojo - negro - negro - naranja
+azul - azul - amarillo - amarillo - rojo - rojo - negro
+azul - azul - amarillo - amarillo - rojo - rojo - negro
+naranja - naranja - azul - azul - marron - marron - azul
+amarillo - amarillo - rojo - rojo - negro - negro - naranja
+
+*** Harry Potter ***
+
+naranja - naranja - negro - naranja - amarillo - rojo
+naranja - naranja - negro - naranja - azul - amarillo - amarillo
+marron - marron - naranja - marron - amarillo - rojo - negro
+morado - morado - marron - amarillo - azul - amarillo - amarillo
