@@ -56,7 +56,7 @@ public class ControladorVentanaJuego {
     public static int niveles = 4;
     public static Image image1, image2, image3, image4, image5, image6, image7, image8, image9, image10, image11;
     public static String[] colorPath = {"C:\\Users\\Diego\\IdeaProjects\\RetoJuegoOficial\\src\\main\\resources\\com\\example\\retojuegooficial\\amarillo.jpg", "C:\\Users\\Diego\\IdeaProjects\\RetoJuegoOficial\\src\\main\\resources\\com\\example\\retojuegooficial\\azul.jpg", "C:\\Users\\Diego\\IdeaProjects\\RetoJuegoOficial\\src\\main\\resources\\com\\example\\retojuegooficial\\marron.jpg", "C:\\Users\\Diego\\IdeaProjects\\RetoJuegoOficial\\src\\main\\resources\\com\\example\\retojuegooficial\\morado.jpg", "C:\\Users\\Diego\\IdeaProjects\\RetoJuegoOficial\\src\\main\\resources\\com\\example\\retojuegooficial\\naranja.jpg", "C:\\Users\\Diego\\IdeaProjects\\RetoJuegoOficial\\src\\main\\resources\\com\\example\\retojuegooficial\\negro.jpg", "C:\\Users\\Diego\\IdeaProjects\\RetoJuegoOficial\\src\\main\\resources\\com\\example\\retojuegooficial\\rojo.jpg", "C:\\Users\\Diego\\IdeaProjects\\RetoJuegoOficial\\src\\main\\resources\\com\\example\\retojuegooficial\\rosa.jpg", "C:\\Users\\Diego\\IdeaProjects\\RetoJuegoOficial\\src\\main\\resources\\com\\example\\retojuegooficial\\verde.jpg"};
-    public ProgressBar barraProgreso;
+
     public Label gameOver;
     public static double puntuajeTotal;
     public static int remainingTime;
@@ -2484,7 +2484,7 @@ public class ControladorVentanaJuego {
                     rojo.setDisable(true);
                     rosa.setDisable(true);
                     verde.setDisable(true);
-                    if (compararColores(coloresObtenidos, coloresPresionados) && barraProgreso.getProgress() > 0) {
+                    if (compararColores(coloresObtenidos, coloresPresionados)) {
                         ganador = true;
                         remainingTime += Integer.parseInt(contador.getText().substring(0, contador.getText().length() - 1));
                     } else {
