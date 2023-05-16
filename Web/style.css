@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+.head {color: white;
+  margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height:76px;
+    background: #232323;
+    /*position: fixed;*/
+    width: 100%;
+  }
+
+.navbar{display: flex;
+  align-items: center;
+  margin-right: 20px;}
+
+
+.logo {
+  align-items: center;
+  display: flex;
+    margin-top: 0px;
+    margin-left: 25px;
+    font-family: 'Monoton', cursive;}
+    
+
+.logo-name{
+letter-spacing: 4px;
+margin-left: 20px;
+font-size: 25px;
+}
+
+#video-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: rgba(0, 0 , 0, 0.2) url(img/vecteezy_animation-of-abstract-neon-laser-show-on-a-black-background_2018047.mp4) no-repeat center; 
+  background-blend-mode: darken;
+}
+
+#bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+ 
+  
+}
+
+#content {
+  position: relative;
+  z-index: 1;
+  font-size: 40px;
+  color: white;
+  
+  margin-top: 25px;
+}
+
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+
+.navbar a {padding: 0px 15px;
+    height: auto;
+    display: block;
+        color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+border-bottom: #fff solid 2px;}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 100vh !important;
+    background: no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    
+  
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  /*max-width: 1400px;*/
+  background-color: #232323;
+  background-image: url(img/pngtree-abstract-dark-background-rays-of-neon-light-in-the-dark-neon-picture-image_1228453.jpg);
+  
+} 
+
+.card{
+  
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgb(43, 255, 0);
+  cursor: default;
+  transition: all 400ms ease;
+  
+}
+
+.card:hover{
+box-shadow: 10px 10px 40px #37b027;
+transform: translateY(-3%);
+}
+
+.card img{
+width: 100%;
+height: 210px;
+}
+
+.card .contenido{
+  padding: 15px;
+  text-align: center;
+}
+
+.card .contenido p{
+  line-height: 1.5;
+  color: #6a6a6a;
+}
+
+.card .conetnido h3{
+font-weight: 400;
+margin-bottom: 15px;
+}
+
+.card .conetnido a{
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+margin-top: 10px;
+color: #2fb4cc;
+border: 1px solid #2fb4cc;
+border-radius: 4px;
+transition: all 400ms ease;
+}
+
+.card .contenido a:hover{
+  background: #2fb4cc;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+.card2{
+  
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgb(195, 0, 255);
+  cursor: default;
+  transition: all 400ms ease;
+  
+}
+
+.card2:hover{
+box-shadow: 10px 10px 40px #9c27b0;
+transform: translateY(-3%);
+}
+
+.card2 img{
+width: 100%;
+height: 210px;
+}
+
+.card2 .contenido{
+  padding: 15px;
+  text-align: center;
+}
+
+.card2 .contenido p{
+  line-height: 1.5;
+  color: #6a6a6a;
+}
+
+.card2 .conetnido h3{
+font-weight: 400;
+margin-bottom: 15px;
+}
+
+.card2 .conetnido a{
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+margin-top: 10px;
+color: #2fb4cc;
+border: 1px solid #2fb4cc;
+border-radius: 4px;
+transition: all 400ms ease;
+}
+
+.card2 .contenido a:hover{
+  background: #2fb4cc;
+  color: #fff;
+}
+
+
+
+
+
+.card3{
+  
+  width: 100%;
+  margin: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgb(242, 255, 0);
+  cursor: default;
+  transition: all 400ms ease;
+  
+}
+
+.card3:hover{
+box-shadow: 10px 10px 40px #b0a227;
+transform: translateY(-3%);
+}
+
+.card3 img{
+width: 100%;
+height: 210px;
+}
+
+.card3 .contenido{
+  padding: 15px;
+  text-align: center;
+}
+
+.card3 .contenido p{
+  line-height: 1.5;
+  color: #6a6a6a;
+}
+
+.card3 .conetnido h3{
+font-weight: 400;
+margin-bottom: 15px;
+}
+
+.card3 .conetnido a{
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+margin-top: 10px;
+color: #2fb4cc;
+border: 1px solid #2fb4cc;
+border-radius: 4px;
+transition: all 400ms ease;
+}
+
+.card .contenido a:hover{
+  background: #2fb4cc;
+  color: #fff;
+}
+
+
+
+
+
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #272727fe;
+    border-radius: 4px;
+    font-weight: 600;
+
+    color: #fff;
+    text-decoration: none;
+    background: #272727fe;
+}
+.btn2 {
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid#fff;
+    font-weight: 600;
+    color: #272727fe;
+    text-decoration: none;
+    background: transparent;
+}
+
+
+
+.btn2:hover {
+    background: #fff;
+}
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content2 {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    background: #171717;
+}
+
+.price {
+    background: url(img/descarga.gif) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.contact {
+    padding-top: 20px;
+    background: #8e8e8e;
+    padding-bottom: 0;
+}
+
+
+@media (max-width: 500px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
+}
+
+
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #838383;
+    background-color:#232323;
+   
+  }
+  
+  .footer > * {
+    flex:  1 100%;
+  }
+  
+  .footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  }
+  
+  .footer__logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+  }
+  
+  .footer__addr h2 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .nav__title {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .footer address {
+    font-style: normal;
+    color: #ffffff;
+  }
+  
+  .footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(33, 33, 33, 0.07);
+    border-radius: 100px;
+    color: #ffffff;
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li {
+    line-height: 2em;
+  }
+  
+  .footer a {
+    text-decoration: none;
+  }
+  
+  .footer__nav {
+    display: flex;
+      flex-flow: row wrap;
+  }
+  
+  .footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+  }
+  
+  .nav__ul a {
+    color: #999;
+  }
+  
+  .nav__ul--extra {
+    column-count: 2;
+    column-gap: 1.25em;
+  }
+  
+  .legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+  }
+    
+  .legal__links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .heart {
+    color: #2f2f2f;
+  }
+  
+  @media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+      flex: 1;
+    }
+    
+    .nav__item--extra {
+      flex-grow: 2;
+    }
+    
+    .footer__addr {
+      flex: 1 0px;
+    }
+    
+    .footer__nav {
+      flex: 2 0px;
+    }
+  }
