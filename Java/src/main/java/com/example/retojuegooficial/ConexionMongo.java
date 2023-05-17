@@ -8,7 +8,7 @@ public class ConexionMongo {
 
     MongoCollection<Document> mongoCollection;
     
-    public ConexionMongo(String host ){
+    public ConexionMongo(String host){
 
         mongoClient = MongoClients.create(host);
 

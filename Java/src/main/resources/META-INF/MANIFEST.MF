@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Main-Class: com.example.retojuegooficial.Colorama
+Class-Path: bootstrapfx-core-0.4.0.jar mongo-java-driver-3.12.13.jar aud
+ io-4.0.13.jar javafx-media-19-ea+7.jar jackson-annotations-2.12.1.jar f
+ ormsfx-core-11.5.0.jar fxgl-entity-17.1.jar javafx-controls-19-ea+7.jar
+  storage-4.0.13.jar annotations-13.0.jar fxgl-io-17.1.jar javafx-graphi
+ cs-19-ea+7-win.jar fxgl-17.1.jar javafx-base-19-ea+7.jar fxgl-gameplay-
+ 17.1.jar jackson-databind-2.12.1.jar controlsfx-11.1.1.jar lifecycle-4.
+ 0.13.jar javafx-fxml-19-ea+7.jar javafx-fxml-19-ea+7-win.jar javafx-med
+ ia-19-ea+7-win.jar jackson-core-2.12.1.jar kotlin-stdlib-1.5.32-modular
+ .jar javafx-controls-19-ea+7-win.jar kotlin-stdlib-common-1.5.32.jar fx
+ gl-scene-17.1.jar util-4.0.13.jar javafx-graphics-19-ea+7.jar javafx-ba
+ se-19-ea+7-win.jar fxgl-core-17.1.jar
+

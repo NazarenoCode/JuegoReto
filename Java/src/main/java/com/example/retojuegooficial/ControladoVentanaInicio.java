@@ -49,7 +49,11 @@ public class ControladoVentanaInicio {
 
                         //Username
                         userName = txtNombre.getText();
+                    }else {
+                        terminosCondiciones();
                     }
+                }else {
+                    password();
                 }
             } else {
                 emailInscrito();
@@ -82,7 +86,11 @@ public class ControladoVentanaInicio {
 
                             //Username
                             userName = txtNombre.getText();
+                        }else{
+                            terminosCondiciones();
                         }
+                    }else{
+                        password();
                     }
                 } else {
                     emailInscrito();
@@ -197,6 +205,20 @@ public class ControladoVentanaInicio {
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setHeaderText("INFORMACIÓN");
         alert.setContentText("Este email ya se encuentra registrado por favor utilice otro o vaya a la ventana de inicio de sesión.");
+        alert.showAndWait();
+    }
+
+    public static void password(){
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setHeaderText("INFORMACIÓN");
+        alert.setContentText("Asegúrese de haber introducido una contraseña con una longitud mayor o igual a 6 caracteres, o un email correcto.");
+        alert.showAndWait();
+    }
+
+    public static void terminosCondiciones(){
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setHeaderText("INFORMACIÓN");
+        alert.setContentText("Asegúrese de tener marcada la casilla de política de privacidad y no dejar su nombre sin rellenar.");
         alert.showAndWait();
     }
 
